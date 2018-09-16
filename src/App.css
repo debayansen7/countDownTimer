@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+.App-title {
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+.clock{
+  display: inline;
+}
+
+.clock-days, .clock-hours, .clock-minutes, .clock-seconds{
+  display: inline;
+  margin: 2px;
+}
+
+.deadLine-input{
+  font-size: 25px;
+  margin: 10px
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
